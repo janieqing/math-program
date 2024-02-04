@@ -1,6 +1,8 @@
 import random
 
 print("Welcome to math helper!")
+name = input("What is your name? ")
+print("Hi, ", name)
 print('''There are 4 modes that you can choose from: addition, subtraction, multiplication, or division.
 When prompted, please type in the name of the mode from the list above exactly. Or, press q to exit the program.''')
 
