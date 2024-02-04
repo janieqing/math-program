@@ -43,14 +43,17 @@ def add():
             
         answer = str(input())
         correctanswer = list(choices.keys())[list(choices.values()).index(x+y)]
-            
+      
         if answer == correctanswer:
             print("correct")
             right+=1
+            
                 
         elif answer != correctanswer:
             print("incorrect")
             wrong+=1
+            
+        print("Number Correct: ", right)
 
         if wrong == 3:
             print('try studying some more and come back later!')
