@@ -2,7 +2,7 @@ import random
 
 print("Welcome to math helper!")
 print('''There are 4 modes that you can choose from: addition, subtraction, multiplication, or division.
-When prompted, please type in the name of the mode from the list above exactly.''')
+When prompted, please type in the name of the mode from the list above exactly. Or, press q to exit the program.''')
 
 def add():
     right = 0
@@ -370,6 +370,8 @@ elif mode == 'multiplication':
     
 elif mode == 'addition':
     add()
+elif mode == 'q':
+    print("Thank you for checking out the math program. Bye!")
 else:
     print('Check spelling of mode and try again. Make sure it matches the choices above exactly!')
 
